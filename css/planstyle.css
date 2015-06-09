@@ -1,0 +1,176 @@
+/**************** MAIN CONTAINER ****************/
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+#main-container {
+	width: 1248px;
+	padding: 0px;
+	margin-right: auto;
+	margin-left: auto;	
+}
+
+/************ HEADER & BANNER PHOTO *************/
+
+
+#header 
+/*put width here, see what you can remove from nav-bar-aqua and transparent-nav-bar*/
+	
+	#nav-bar-aqua {
+	width: 1248px;
+	height: 55px;
+	background-color: #8ACEC9;
+	border-bottom: 8px solid #F9F1B5;
+	/*position: fixed;*/
+	padding:0px;
+	top: 0px;
+	opacity: 0.95;
+    filter: alpha(opacity=95); /* For IE8 and earlier */
+	 /* text-align: center; */
+	z-index: 12; 
+}
+
+#nav-bar-aqua li {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	list-style-type: none;
+	display: inline-block; 
+	margin: 10px 130px 0px 0px;
+	position: relative;
+	left: 520px;
+	line-height: 35px;
+
+}
+
+#nav-bar-aqua li a {
+	text-decoration: none;
+	color: white;
+	width: 300px;
+}
+
+#nav-bar-aqua a:hover {
+	color: black;
+	transition: color 0.5s ease;
+}
+
+#transparent-nav-bar {
+	width: 1248px;
+	height: 60px;
+	background-color: black;
+	opacity: 0.2;
+    filter: alpha(opacity=20); /* For IE8 and earlier */
+	/*position: fixed;*/
+	top: 62px;
+	text-align: center; 
+	z-index: 13; 
+}
+
+#header-logo {
+	width: 259px;
+	height: 77px;
+	position: relative;
+	top: -103px;
+	margin-left: 134px; 
+	margin-bottom: -80px;
+	/*position: fixed;*/
+	z-index: 15;
+}
+
+#banner-photo {
+	width: 1248px;
+	z-index: 0;
+	top: 80px;
+}
+
+
+/***** BODY CONTENT *****/
+
+
+#body-content {
+	
+	/*background-color: #8ACEC9;*/
+	background-color: rgba(211, 211, 211, 0.3);
+	width: 1100px; 
+	height: 1200px;
+	margin: 0px auto;
+
+}
+
+
+.description {
+	width: 280px;
+	height: 380px;
+	font-family: 'Raleway', sans serif;
+	font-size: 18px;
+	margin: 0px 70px 0px 60px;
+	/*background-color: #FFFFFF; */
+	top: 180px; 
+	position: relative; 
+	float: left;
+}
+
+.mock-up {
+	position: relative;
+	top: 105px;
+	margin-left: 40px;
+}
+
+.description-paragraph {
+	font-size: 16px;
+}
+
+
+.highlight-boxes {
+	transition: opacity 0.5s ease;
+	opacity: 1;
+	width: 300px;
+	height: 240px;
+	background-color: #DDDAD6;
+	float: left;	
+}
+
+.highlight-boxes:hover {
+	opacity: .6;
+}
+
+#child-left {
+	margin: 20px 10px 20px 20px; 
+
+}
+
+#child-middle {
+	margin: 20px 10px 20px 10px;
+
+}
+
+#child-right {
+	margin: 20px 20px 20px 10px;
+
+}
+
+
+/***************** FOOTER *****************/
+
+.footer {
+	width: 1248px;
+	height: 65px;
+	background-color: rgba(249, 241, 181, 0.8);
+	font-family: 'Raleway', sans-serif;
+	color: gray;
+	line-height: 65px;
+	 
+}
+
+.footer li {
+	display: inline-block;
+	list-style-type: none;
+	margin-left: 30px;
+}
+
+#icon {
+	position: relative; 
+	top: 9px;
+	margin-left: 40px;
+}
